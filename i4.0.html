@@ -4,14 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webpage with GIF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .responsive-text {
+            font-size: 2vw;
+        }
+
+        .responsive-image {
+            width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .responsive-text {
+                font-size: 4vw;
+            }
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
     <h1>Welcome to TDK Electronics (Malaysia) DX Activities</h1>
     <h2> HOD : Dyego Krause</h2>
     <h2>Team Members : Lee Pick Yern (Christy), Mafazi, Ahnaf</h2><br/>
 
     
-    <img src="PPD_i40_platform introduction (JB).gif" alt="Cool GIF">
-    
+    <img src="PPD_i40_platform introduction (JB).gif" Class="Cool GIF">
+</div>
 </body>
 </html>
